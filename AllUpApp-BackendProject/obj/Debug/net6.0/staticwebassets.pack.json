@@ -1,0 +1,617 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\css\\plugins\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\css\\plugins\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\css\\plugins\\default.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\default.css"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\css\\plugins\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\css\\plugins\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\css\\plugins\\images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\css\\plugins\\images\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\css\\plugins\\images\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\css\\plugins\\images\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\css\\plugins\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\css\\plugins\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\ionicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\css\\plugins\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\css\\plugins\\slick.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-light-300.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-light-300.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300.svg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-light-300.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300.woff"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-light-300d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-light-300d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\ionicons28b5.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons28b5.eot"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\ionicons28b5.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons28b5.svg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\ionicons28b5.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons28b5.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\fonts\\ionicons28b5.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons28b5.woff"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\author-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\author-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\banner-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\banner-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\banner-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\banner-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\banner-13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\banner-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\banner-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\banner-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\banner-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\banner-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\banner-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\banner-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\banner-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\banner-icon\\icon1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-icon\\icon1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\banner-icon\\icon2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-icon\\icon2.png"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\banner-icon\\icon3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-icon\\icon3.png"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\banner-icon\\icon4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-icon\\icon4.png"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\banner-icon\\icon5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-icon\\icon5.png"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\banner-image.png",
+      "PackagePath": "staticwebassets\\assets\\images\\banner-image.png"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\bg-cound.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bg-cound.png"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\bg-footer.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg-footer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\bg-newletter.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg-newletter.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\bg_testimonial.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg_testimonial.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\brand\\brand-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\brand-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\brand\\brand-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\brand-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\brand\\brand-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\brand-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\brand\\brand-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\brand-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\brand\\brand-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\brand-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\brand\\brand-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\brand\\brand-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\category-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\category-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\category-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\category-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\category-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\category-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\category-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\category-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\category-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\category-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\category-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\category-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\category-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\category-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\category-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\category-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\category-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\category-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\category-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\category-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\category-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\category-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\category-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\category-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\comment-author.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\comment-author.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\custom_banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\custom_banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\flag\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flag\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\flag\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flag\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\icon-1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon-1.png"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\icon-2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon-2.png"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\icon-3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\logo-white.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-white.png"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\payment.png",
+      "PackagePath": "staticwebassets\\assets\\images\\payment.png"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product-cart\\cart-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-cart\\cart-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product-cart\\cart-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-cart\\cart-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product-quick\\product-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-quick\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product-quick\\product-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-quick\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product-quick\\product-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-quick\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product-quick\\product-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-quick\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product-quick\\product-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-quick\\product-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product\\product-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product\\product-10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product\\product-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product\\product-12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product\\product-13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product\\product-14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product\\product-15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product\\product-16.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product\\product-17.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product\\product-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product\\product-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product\\product-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product\\product-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product\\product-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product\\product-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product\\product-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\product\\product-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product\\product-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\slider-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\slider-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\slider-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\slider-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\slider-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\slider-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\slider-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\slider-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\slider-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\special-products\\special-products-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\special-products\\special-products-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\special-products\\special-products-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\special-products\\special-products-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\special-products\\special-products-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\special-products\\special-products-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\special-products\\special-products-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\special-products\\special-products-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\special-products\\special-products-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\special-products\\special-products-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\special-products\\special-products-6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\special-products\\special-products-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\special-products\\special-products-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\special-products\\special-products-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\special-products\\special-products-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\special-products\\special-products-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\js\\map-script.js",
+      "PackagePath": "staticwebassets\\assets\\js\\map-script.js"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\js\\plugins\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\js\\plugins\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\js\\plugins\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\js\\plugins\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\js\\plugins\\slick.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\js\\vendor\\jquery-1.12.4.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\jquery-1.12.4.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\js\\vendor\\modernizr-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor\\modernizr-3.7.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\plugins\\js\\ajax-contact.js",
+      "PackagePath": "staticwebassets\\assets\\plugins\\js\\ajax-contact.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.AllUpApp-BackendProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.AllUpApp-BackendProject.props",
+      "PackagePath": "build\\AllUpApp-BackendProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.AllUpApp-BackendProject.props",
+      "PackagePath": "buildMultiTargeting\\AllUpApp-BackendProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.AllUpApp-BackendProject.props",
+      "PackagePath": "buildTransitive\\AllUpApp-BackendProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
