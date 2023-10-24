@@ -18,7 +18,9 @@ namespace AllUpApp_BackendProject.Controllers
         {
             HomeVM homeVM = new();
             homeVM.Sliders = _appDbContext.Sliders.Where(s=>!s.IsDeleted).ToList();
+            homeVM.Categories = _appDbContext.Categories.ToList();
             return View(homeVM);
+            
         }
     }
 }

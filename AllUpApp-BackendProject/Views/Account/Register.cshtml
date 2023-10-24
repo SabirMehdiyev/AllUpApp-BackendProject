@@ -1,0 +1,64 @@
+﻿@using AllUpApp_BackendProject.ViewModels.Account;
+@model RegisterVM
+@{
+    ViewData["Title"] = "Register Page";
+}
+
+
+<div class="breadcrumb-area">
+    <div class="container-fluid custom-container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active">Register</li>
+            </ol>
+        </nav>
+    </div> <!-- container -->
+</div>
+
+<!--====== Breadcrumb Part Ends ======-->
+<!--====== Register Part Start ======-->
+
+<section class="register-area pt-10">
+    <div class="container-fluid custom-container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="login-register-wrapper mt-30">
+                    <h4 class="allup-title">Create New Account</h4>
+                    <p class="mt-10">Already have an account? <a asp-action="login">Log in instead!</a></p>
+
+                    <form action="#" method="post">
+                        <div class="single-form">
+                            <input asp-for="FullName" placeholder="FullName">
+                            <span asp-validation-for="FullName" class="text-danger"></span>
+                        </div>
+                        <div class="single-form">
+                            <input asp-for="Email" placeholder="Email Address">
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="single-form">
+                            <input asp-for="UserName" placeholder="Username">
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+                        <div class="single-form">
+                            <input asp-for="Password" placeholder="Password">
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <div class="single-form">
+                            <input asp-for="RepeatPassword" placeholder="Confirm Password">
+                            <span asp-validation-for="RepeatPassword" class="text-danger"></span>
+                        </div>
+                        <div class="single-form">
+                            <button type="submit" class="main-btn main-btn-2">Register</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
