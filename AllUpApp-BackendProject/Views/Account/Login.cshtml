@@ -1,0 +1,52 @@
+﻿@model LoginVM
+@{
+    ViewData["Title"] = "Login Page";
+}
+
+<div class="breadcrumb-area">
+    <div class="container-fluid custom-container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active">Login</li>
+            </ol>
+        </nav>
+    </div> <!-- container -->
+</div>
+
+<!--====== Breadcrumb Part Ends ======-->
+<!--====== Login Part Start ======-->
+
+<section class="login-area pt-10">
+    <div class="container-fluid custom-container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <div class="login-register-wrapper mt-30">
+                    <h4 class="allup-title">Login to Your Account</h4>
+                    <form method="post" >
+                        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+                        <div class="single-form">
+                            <input asp-for="UserNameOrEmail" placeholder="Username or email *">
+                            <span asp-validation-for="UserNameOrEmail" class="text-danger"></span>
+                        </div>
+                        <div class="single-form">
+                            <input asp-for="Password" placeholder="Password">
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input asp-for="RememberMe" class="form-check-input">
+                                Remember Me
+                            </label>
+                        </div>
+                        <div class="single-form">
+                            <button type="submit" class="main-btn main-btn-2">Login</button>
+                        </div>
+                    </form>
+                    <p class="mt-20"><a asp-action="forgetpassword">Forget your password?</a></p>
+                    <p class="mt-10">No account? <a asp-action="register">Create one here.</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

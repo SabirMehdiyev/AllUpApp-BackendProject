@@ -7,7 +7,7 @@
     <meta charset="utf-8">
 
     <!--====== Title ======-->
-    <title>Allup - Electronics Responsive eCommerce HTML Template.</title>
+    <title>@ViewData["Title"]</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -64,7 +64,17 @@
                         </div>
                         <div class="header-menu-nav">
                             <ul class="menu-nav">
-                                <li><a href="compare.html"><i class="fal fa-repeat"></i> Compare (0)</a></li>
+                                <li>
+                                    @if(User.Identity.IsAuthenticated)
+                                    {
+                                        @User.Identity.Name  
+                                        <a asp-controller="account" asp-action="logout">Log Out</a>
+                                    }
+                                    else
+                                    {
+                                        <a asp-controller="account" asp-action="login">Login</a>
+                                    }
+                                </li>
                                 <li><a href="wishlist.html"><i class="fal fa-heart"></i> Wishlist(0)</a></li>
                                 <li>
                                     <div class="dropdown">

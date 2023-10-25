@@ -4,6 +4,7 @@ using AllUpApp_BackendProject.DAL;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AllUpApp_BackendProject.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231025073812_addIsActiveColumnToAppUser")]
+    partial class addIsActiveColumnToAppUser
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -92,44 +94,6 @@ namespace AllUpApp_BackendProject.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "9d9515db-ffb0-4a22-8443-ad1878b8ce57",
-                            AccessFailedCount = 0,
-                            ConcurrencyStamp = "4742ff44-36be-4048-ad07-0dd2b5e9a27b",
-                            Email = "sabir@gmail.com",
-                            EmailConfirmed = true,
-                            FullName = "SabirMehdiyev",
-                            IsActive = false,
-                            LockoutEnabled = false,
-                            NormalizedEmail = "SABIR@GMAIL.COM",
-                            NormalizedUserName = "SABIR1",
-                            PasswordHash = "AQAAAAEAACcQAAAAEEuYdxAOOIVB+/5ZDyzv0DVF4696VnlwTFqnOPr6gkQi/lEzzROZ1ksXh2hou1KXMA==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "474078b6-530e-4976-92fc-e5de44eeb7dd",
-                            TwoFactorEnabled = false,
-                            UserName = "Sabir1"
-                        },
-                        new
-                        {
-                            Id = "b65c426c-a0fe-48b6-95c4-f02674eb9bf6",
-                            AccessFailedCount = 0,
-                            ConcurrencyStamp = "b8a0ac03-426c-4e59-b8c8-8023107ed39d",
-                            Email = "sabirsm@code.edu.az",
-                            EmailConfirmed = false,
-                            FullName = "SabirMehdi",
-                            IsActive = false,
-                            LockoutEnabled = false,
-                            NormalizedEmail = "SABIRSM@CODE.EDU.AZ",
-                            NormalizedUserName = "SABIRCODE",
-                            PasswordHash = "AQAAAAEAACcQAAAAEAD70959nVszjxESgqHRGS1WfFF0dNEae35XpylGAJK0Qa+4/cQbmuJS+/mIHR8pXA==",
-                            PhoneNumberConfirmed = false,
-                            SecurityStamp = "ebf22b85-f37d-4bc1-bdd1-e2f0d0412671",
-                            TwoFactorEnabled = false,
-                            UserName = "Sabircode"
-                        });
                 });
 
             modelBuilder.Entity("AllUpApp_BackendProject.Models.Category", b =>
@@ -248,29 +212,6 @@ namespace AllUpApp_BackendProject.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "5eda4574-978a-4e86-b00b-88deb766bf6d",
-                            ConcurrencyStamp = "5eda4574-978a-4e86-b00b-88deb766bf6d",
-                            Name = "Admin",
-                            NormalizedName = "ADMIN"
-                        },
-                        new
-                        {
-                            Id = "b3c84a9a-5f88-48ff-93b6-17b098c11a24",
-                            ConcurrencyStamp = "b3c84a9a-5f88-48ff-93b6-17b098c11a24",
-                            Name = "SuperAdmin",
-                            NormalizedName = "SUPERADMIN"
-                        },
-                        new
-                        {
-                            Id = "795d03c8-0db4-43cb-a131-1293bcae88b1",
-                            ConcurrencyStamp = "795d03c8-0db4-43cb-a131-1293bcae88b1",
-                            Name = "User",
-                            NormalizedName = "USER"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -358,18 +299,6 @@ namespace AllUpApp_BackendProject.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetUserRoles", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            UserId = "9d9515db-ffb0-4a22-8443-ad1878b8ce57",
-                            RoleId = "5eda4574-978a-4e86-b00b-88deb766bf6d"
-                        },
-                        new
-                        {
-                            UserId = "b65c426c-a0fe-48b6-95c4-f02674eb9bf6",
-                            RoleId = "b3c84a9a-5f88-48ff-93b6-17b098c11a24"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>

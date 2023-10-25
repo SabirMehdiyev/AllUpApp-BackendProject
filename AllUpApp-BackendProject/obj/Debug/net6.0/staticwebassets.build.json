@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YlNxPJGCmNwxRGZaOH21L+0nyX9+lLRKKeX9+OoPeTk=",
+  "Hash": "uSrob8sXS8kLY9UNpWrqis+uCN0P63B72jrEs83pHOc=",
   "Source": "AllUpApp-BackendProject",
   "BasePath": "_content/AllUpApp-BackendProject",
   "Mode": "Default",
@@ -2548,6 +2548,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\plugins\\js\\ajax-contact.js"
+    },
+    {
+      "Identity": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\ConfirmEmail\\ConfirmEmail.html",
+      "SourceId": "AllUpApp-BackendProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\",
+      "BasePath": "_content/AllUpApp-BackendProject",
+      "RelativePath": "ConfirmEmail/ConfirmEmail.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ConfirmEmail\\ConfirmEmail.html"
     }
   ]
 }

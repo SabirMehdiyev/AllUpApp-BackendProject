@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\ConfirmEmail\\ConfirmEmail.html",
+      "PackagePath": "staticwebassets\\ConfirmEmail\\ConfirmEmail.html"
+    },
+    {
       "Id": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\css\\plugins\\animate.css",
       "PackagePath": "staticwebassets\\assets\\css\\plugins\\animate.css"
     },

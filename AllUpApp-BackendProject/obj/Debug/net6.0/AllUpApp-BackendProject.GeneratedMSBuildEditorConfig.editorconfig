@@ -16,8 +16,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Sabir\source\repos\AllUpApp-BackendProject\AllUpApp-BackendProject
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Sabir/source/repos/AllUpApp-BackendProject/AllUpApp-BackendProject/Views/Account/ForgetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3JnZXRQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sabir/source/repos/AllUpApp-BackendProject/AllUpApp-BackendProject/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Sabir/source/repos/AllUpApp-BackendProject/AllUpApp-BackendProject/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sabir/source/repos/AllUpApp-BackendProject/AllUpApp-BackendProject/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sabir/source/repos/AllUpApp-BackendProject/AllUpApp-BackendProject/Views/Account/UsedLink.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxVc2VkTGluay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Sabir/source/repos/AllUpApp-BackendProject/AllUpApp-BackendProject/Views/Home/Index.cshtml]

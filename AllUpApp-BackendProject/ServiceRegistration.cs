@@ -1,5 +1,6 @@
 ﻿using AllUpApp_BackendProject.DAL;
 using AllUpApp_BackendProject.Models;
+using AllUpApp_BackendProject.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -34,6 +35,7 @@ namespace AllUpApp_BackendProject
                 options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(10);
                 options.Lockout.MaxFailedAccessAttempts = 3;
             }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
+            services.AddScoped<IEmailService, EmailService>();
         }
     }
 }
