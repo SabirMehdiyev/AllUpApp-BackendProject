@@ -7,5 +7,6 @@
         public int? ParentId { get; set; }
         public Category Parent { get; set; }
         public bool IsMain { get; set; }
+        public List<Category> Children { get; set; }
     }
 }
