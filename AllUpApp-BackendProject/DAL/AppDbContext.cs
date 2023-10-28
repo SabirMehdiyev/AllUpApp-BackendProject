@@ -13,6 +13,7 @@ namespace AllUpApp_BackendProject.DAL
         }
         public DbSet<Slider> Sliders { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Setting> Settings { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

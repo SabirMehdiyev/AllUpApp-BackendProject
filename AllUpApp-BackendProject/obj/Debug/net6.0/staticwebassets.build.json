@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bxn3WHYBaXTZ8rx9rRXD81q604Gy+2ICEtoS7rpJ+EY=",
+  "Hash": "e/WH/o80ubRXM53PPHqXKGy9G7YVEaXg79x/69cn74g=",
   "Source": "AllUpApp-BackendProject",
   "BasePath": "_content/AllUpApp-BackendProject",
   "Mode": "Default",
@@ -65518,6 +65518,23 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\ionicons28b5.woff"
     },
     {
+      "Identity": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\6d0428c8-28e9-4ad5-97ed-588be43202ed_Screenshot 2023-04-18 121554.png",
+      "SourceId": "AllUpApp-BackendProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\",
+      "BasePath": "_content/AllUpApp-BackendProject",
+      "RelativePath": "assets/images/6d0428c8-28e9-4ad5-97ed-588be43202ed_Screenshot 2023-04-18 121554.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\6d0428c8-28e9-4ad5-97ed-588be43202ed_Screenshot 2023-04-18 121554.png"
+    },
+    {
       "Identity": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\author-1.png",
       "SourceId": "AllUpApp-BackendProject",
       "SourceType": "Discovered",
@@ -66094,23 +66111,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\brand\\brand-6.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\category-1.jpg",
-      "SourceId": "AllUpApp-BackendProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\",
-      "BasePath": "_content/AllUpApp-BackendProject",
-      "RelativePath": "assets/images/category-1.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\category-1.jpg"
     },
     {
       "Identity": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\category-10.jpg",
