@@ -1,0 +1,22 @@
+﻿@model Category
+@{
+    ViewData["Title"] = "Category Detail";
+}
+
+
+<div class="container">
+    <h2>Category Details</h2>
+
+    <dl style="color:black">
+        <dt>Name: @Model.Name</dt>
+    </dl>
+
+    @if (!string.IsNullOrEmpty(Model.ImageUrl))
+    {
+        <div>
+            <img src="~/assets/images/@Model.ImageUrl" alt="@Model.Name" />
+        </div>
+    }
+    <br>
+    <a class="btn btn-outline-dark" asp-action="index">Back to Dashboard</a>
+</div>

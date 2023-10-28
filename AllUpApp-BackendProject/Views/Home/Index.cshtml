@@ -57,7 +57,7 @@
             </div>
         </div> <!-- row -->
         <div class="row category-active">
-            @for (int i = 0; i < Model.Categories.Count; i++)
+            @for (int i = 0; i < Model.Categories.Count; i += 2)
             {
                 <div class="col-lg-2">
                     <div class="single-category text-center">
@@ -66,16 +66,19 @@
                             <p>@Model.Categories[i].Name</p>
                         </a>
                     </div> <!-- single category -->
-                    <div class="single-category text-center">
-                        <a target="_blank" href="shop-left-sidebar.html">
-                            <img src="~/assets/images/@Model.Categories[i+1].ImageUrl" alt="category">
-                            <p>@Model.Categories[i+1].Name</p>
-                        </a>
-                    </div> <!-- single category -->
+                    @if (i + 1 < Model.Categories.Count)
+                    {
+                        <div class="single-category text-center">
+                            <a target="_blank" href="shop-left-sidebar.html">
+                                <img src="~/assets/images/@Model.Categories[i+1].ImageUrl" alt="category">
+                                <p>@Model.Categories[i+1].Name</p>
+                            </a>
+                        </div> <!-- single category -->
+                    }
                 </div>
-                i += 1;
             }
-        </div> <!-- row -->
+        </div>
+
     </div> <!-- container -->
 </section>
 

@@ -8049,7 +8049,7 @@ a {
     display: block; } }
 
 [data-header-position="fixed"] .nav-header {
-  position: fixed;
+  position: relative;
   left: auto; }
 
 .nav-header {
@@ -8351,7 +8351,7 @@ svg.pulse-svg {
   padding-left: 9.375rem; }
 
 [data-header-position="fixed"] .header {
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%; }
 

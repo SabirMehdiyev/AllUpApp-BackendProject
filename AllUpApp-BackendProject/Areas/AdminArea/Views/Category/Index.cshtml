@@ -1,0 +1,46 @@
+﻿@model List<Category>
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Category Table</h4>
+                </div>
+                <div class="card-body">
+                    <a asp-action="create" style="color:black;" class="btn btn-outline-success">Create Category</a>
+                    <br>
+                    <br>
+                    <div class="table-responsive">
+                        <table style="color:black;" class="table">
+                            <thead class="thead-primary">
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Setings</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var category in Model)
+                                {
+                                    <tr>
+                                        <td>@category.Name</td>
+                                        <td>
+                                            <a asp-action="Remove" asp-route-id="@category.Id" class="btn btn-outline-danger">Remove</a>
+                                            <a asp-action="Update" asp-route-id="@category.Id" class="btn btn-outline-secondary">Update</a>
+                                            <a asp-action="Detail" asp-route-id="@category.Id" class="btn btn-outline-info">Details</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
