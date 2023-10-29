@@ -1,0 +1,48 @@
+﻿@model List<Slider>
+@{
+    ViewData["Title"] = "Slider Index";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="card">
+                <div class="card-header">
+                    <h4 class="card-title">Slider Table</h4>
+                </div>
+                <div class="card-body">
+                    <a asp-action="create" style="color:black;" class="btn btn-outline-success">Create Slider</a>
+                    <br>
+                    <br>
+                    <div class="table-responsive">
+                        <table style="color:black;" class="table">
+                            <thead class="thead-primary">
+                                <tr>
+                                    <th>Image</th>
+                                    <th>Setings</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var slider in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            <img width="150" height="150" src="~/assets/images/@slider.ImageUrl"/>
+                                        </td>
+                                        <td>
+                                            <a asp-action="Delete" asp-route-id="@slider.Id" class="btn btn-outline-danger">Remove</a>
+                                            <a asp-action="Update" asp-route-id="@slider.Id" class="btn btn-outline-secondary">Update</a>
+                                            <a asp-action="Details" asp-route-id="@slider.Id" class="btn btn-outline-info">Details</a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

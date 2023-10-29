@@ -1,0 +1,49 @@
+﻿@model UpdateSliderVM
+@{
+    ViewData["Title"] = "Update Slider";
+}
+
+<div class="container">
+    <div class="card">
+        <br>
+        <img src="~/assets/images/@Model.ImageUrl" width="300" height="150" />
+        <div class="card-body">
+            <p class="card-description">
+                Update Slider Form
+            </p>
+            <form class="forms-sample" method="post" enctype="multipart/form-data">
+                <input asp-for="Id" type="hidden" />
+                <div class="form-group">
+                    <label asp-for="MainTitle"></label>
+                    <input asp-for="MainTitle" class="form-control" placeholder="Main Title">
+                    <span asp-validation-for="MainTitle" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="SubTitle"></label>
+                    <input asp-for="SubTitle" class="form-control" placeholder="Sub Title">
+                    <span asp-validation-for="SubTitle" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Description"></label>
+                    <input asp-for="Description" class="form-control" placeholder="Description">
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Link"></label>
+                    <input asp-for="Link" class="form-control" placeholder="Link">
+                    <span asp-validation-for="Link" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Photo"></label>
+                    <input asp-for="Photo" type="file" class="form-control" />
+                    <span asp-validation-for="Photo" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-primary mr-2">Update</button>
+                <a asp-action="Index" class="btn btn-light">Cancel</a>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+

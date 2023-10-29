@@ -55,8 +55,10 @@
     <!--====== Header Part Start ======-->
 
     @await Component.InvokeAsync("Header");  
+
             @RenderBody()
 
+    @await Component.InvokeAsync("Newsletter");
     @await Component.InvokeAsync("Footer");
 
     <!--====== Footer Part Ends ======-->

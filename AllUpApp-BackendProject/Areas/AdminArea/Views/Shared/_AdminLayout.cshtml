@@ -176,13 +176,19 @@
                 <ul class="metismenu" id="menu">
                     <li class="nav-label first">Main Menu</li>
                     <li>
-                        <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                        <a asp-controller="dashboard" class="has-arrow" aria-expanded="false">
                             <i class="icon icon-single-04"></i><span class="nav-text">Dashboard</span>
                         </a>
-                        <ul aria-expanded="false">
-                            <li><a href="./index.html">Dashboard 1</a></li>
-                            <li><a href="./index2.html">Dashboard 2</a></li>
-                        </ul>
+                    </li>
+                    <li>
+                        <a asp-controller="category"  class="has-arrow"  aria-expanded="false">
+                            <span class="nav-text">Category</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a asp-controller="slider" class="has-arrow" aria-expanded="false">
+                            <span class="nav-text">Slider</span>
+                        </a>
                     </li>
                     <li class="nav-label">Apps</li>
                     <li>

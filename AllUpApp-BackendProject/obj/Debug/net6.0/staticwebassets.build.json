@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "e/WH/o80ubRXM53PPHqXKGy9G7YVEaXg79x/69cn74g=",
+  "Hash": "lhrlquxQ6Lit4sHohHW1tK3pffUjv9c7Va3Fve4lzNM=",
   "Source": "AllUpApp-BackendProject",
   "BasePath": "_content/AllUpApp-BackendProject",
   "Mode": "Default",
@@ -65516,6 +65516,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\ionicons28b5.woff"
+    },
+    {
+      "Identity": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\230fc9bd-a9a5-47f5-b0eb-18cf5a063152_Screenshot 2023-04-18 121714.png",
+      "SourceId": "AllUpApp-BackendProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\",
+      "BasePath": "_content/AllUpApp-BackendProject",
+      "RelativePath": "assets/images/230fc9bd-a9a5-47f5-b0eb-18cf5a063152_Screenshot 2023-04-18 121714.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\230fc9bd-a9a5-47f5-b0eb-18cf5a063152_Screenshot 2023-04-18 121714.png"
     },
     {
       "Identity": "C:\\Users\\Sabir\\source\\repos\\AllUpApp-BackendProject\\AllUpApp-BackendProject\\wwwroot\\assets\\images\\6d0428c8-28e9-4ad5-97ed-588be43202ed_Screenshot 2023-04-18 121554.png",

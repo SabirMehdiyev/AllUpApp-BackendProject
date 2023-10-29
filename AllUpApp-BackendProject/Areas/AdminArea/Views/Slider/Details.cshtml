@@ -1,0 +1,37 @@
+﻿@model Slider
+@{
+    ViewData["Title"] = "Slider Details";
+}
+
+<div class="container">
+    <h1>Slider Details</h1>
+
+    <div>
+        <h4>Main Title</h4>
+        <p>@Model.MainTitle</p>
+    </div>
+
+    <div>
+        <h4>Sub Title</h4>
+        <p>@Model.SubTitle</p>
+    </div>
+
+    <div>
+        <h4>Description</h4>
+        <p>@Model.Description</p>
+    </div>
+
+    <div>
+        <h4>Link</h4>
+        <p>@Model.Link</p>
+    </div>
+
+    <div>
+        <h4>Image</h4>
+        <img src="~/assets/images/@Model.ImageUrl" width="300" height="150" />
+    </div>
+    <br>
+    <a class="btn btn-outline-danger" asp-action="Index">Back to Index</a>
+</div>
+
+
