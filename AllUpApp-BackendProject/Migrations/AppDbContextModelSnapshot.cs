@@ -172,7 +172,7 @@ namespace AllUpApp_BackendProject.Migrations
 
                     b.HasIndex("ParentId");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("AllUpApp_BackendProject.Models.Setting", b =>
@@ -208,7 +208,7 @@ namespace AllUpApp_BackendProject.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Settings");
+                    b.ToTable("Settings", (string)null);
                 });
 
             modelBuilder.Entity("AllUpApp_BackendProject.Models.Slider", b =>
@@ -256,7 +256,7 @@ namespace AllUpApp_BackendProject.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Sliders");
+                    b.ToTable("Sliders", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>

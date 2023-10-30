@@ -1,0 +1,45 @@
+﻿@model Dictionary<string,string>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<section class="about-page pt-20">
+    <div class="container-fluid custom-container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="about-image mt-30">
+                    <img src="assets/images/@Model["about-img"]" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="about-content mt-30">
+                    <h2 class="title">@Model["about-maintitle"]</h2>
+                    <p>@Model["about-maintext"]</p>
+                </div>
+            </div>
+        </div> <!-- row -->
+        <div class="about-items pt-20">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="about-item mt-30">
+                        <h4 class="title">@Model["about-subtitle1"]</h4>
+                        <p>@Model["about-subtext1"]</p>
+                    </div> <!-- about item -->
+                </div>
+                <div class="col-lg-4">
+                    <div class="about-item mt-30">
+                        <h4 class="title">@Model["about-subtitle2"]</h4>
+                        <p>@Model["about-subtext2"]</p>
+                    </div> <!-- about item -->
+                </div>
+                <div class="col-lg-4">
+                    <div class="about-item mt-30">
+                        <h4 class="title">@Model["about-subtitle3"]</h4>
+                        <p>@Model["about-subtext3"]</p>
+                    </div> <!-- about item -->
+                </div>
+            </div> <!-- row -->
+        </div>  <!-- about items -->
+    </div> <!-- container -->
+</section>
