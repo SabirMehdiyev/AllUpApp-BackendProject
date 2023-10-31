@@ -96,9 +96,9 @@ namespace AllUpApp_BackendProject.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "2f56f526-3762-452c-84fb-b8acb98e7267",
+                            Id = "ba1e7abb-5332-4b14-bacd-35012fff2374",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "e29d0413-0e5d-469d-8e53-bf2007ea464a",
+                            ConcurrencyStamp = "7a0d2612-8ba6-4b2c-b1fd-d4b4649969f0",
                             Email = "sabir@gmail.com",
                             EmailConfirmed = true,
                             FullName = "SabirMehdiyev",
@@ -106,17 +106,17 @@ namespace AllUpApp_BackendProject.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "SABIR@GMAIL.COM",
                             NormalizedUserName = "SABIR1",
-                            PasswordHash = "AQAAAAEAACcQAAAAEKXlaA9olPdpfHOo1KJ+yytc/umQpiMwIr9z6OwEt0p4n/lSV0M+ZtUKVBOTCZ5irA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEFlavxYen17+TKE/H+6lqP01K5vdKWmQLNcsR4vgV/cjLYQGgiVISSud67TRLv7WVg==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "aa2023a7-4aa8-4f57-81ca-d2d9b75e27cf",
+                            SecurityStamp = "8987ad22-31e8-4c29-b8c1-c95dd9aed905",
                             TwoFactorEnabled = false,
                             UserName = "Sabir1"
                         },
                         new
                         {
-                            Id = "89c1d8d2-91bc-4999-b031-ba44890920cc",
+                            Id = "3481617b-09a5-47bb-8ef6-fff59e12d0de",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "8e1cf9b8-894a-4574-b9a7-4c279f2a8f3c",
+                            ConcurrencyStamp = "f6e62834-f3dd-408b-90e3-957c0597ca47",
                             Email = "sabirsm@code.edu.az",
                             EmailConfirmed = false,
                             FullName = "SabirMehdi",
@@ -124,12 +124,44 @@ namespace AllUpApp_BackendProject.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "SABIRSM@CODE.EDU.AZ",
                             NormalizedUserName = "SABIRCODE",
-                            PasswordHash = "AQAAAAEAACcQAAAAEEPF8mabQ6ykr8boFlHVR9bXL4THyPqUCf9NUqgzDU+/aV2g59PmMUWdYIdfUTimVw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEJWW7I/2l6o9ZrqB+Wexhiid99cd8A1UET3r8u03g+YzoxKwuEEpYOINfYNmwWQD2w==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "923edaa0-a873-47a0-810a-a054ae6cd180",
+                            SecurityStamp = "d1431edd-527f-48ce-81ed-9b0f32701916",
                             TwoFactorEnabled = false,
                             UserName = "Sabircode"
                         });
+                });
+
+            modelBuilder.Entity("AllUpApp_BackendProject.Models.Brand", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("AddedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DeletedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Brands");
                 });
 
             modelBuilder.Entity("AllUpApp_BackendProject.Models.Category", b =>
@@ -172,7 +204,120 @@ namespace AllUpApp_BackendProject.Migrations
 
                     b.HasIndex("ParentId");
 
-                    b.ToTable("Categories", (string)null);
+                    b.ToTable("Categories");
+                });
+
+            modelBuilder.Entity("AllUpApp_BackendProject.Models.Product", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("AddedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("BrandId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Code")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DeletedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("DiscountPrice")
+                        .HasColumnType("money");
+
+                    b.Property<double>("ExTax")
+                        .HasColumnType("float");
+
+                    b.Property<bool>("IsAvailable")
+                        .HasColumnType("bit");
+
+                    b.Property<double>("IsBestSeller")
+                        .HasColumnType("float");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsFeatured")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsNewArrival")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("MainImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("money");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BrandId");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("AllUpApp_BackendProject.Models.ProductTag", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("AddedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DeletedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TagId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("TagId");
+
+                    b.ToTable("ProductTags");
                 });
 
             modelBuilder.Entity("AllUpApp_BackendProject.Models.Setting", b =>
@@ -208,7 +353,7 @@ namespace AllUpApp_BackendProject.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Settings", (string)null);
+                    b.ToTable("Settings");
                 });
 
             modelBuilder.Entity("AllUpApp_BackendProject.Models.Slider", b =>
@@ -256,7 +401,39 @@ namespace AllUpApp_BackendProject.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Sliders", (string)null);
+                    b.ToTable("Sliders");
+                });
+
+            modelBuilder.Entity("AllUpApp_BackendProject.Models.Tag", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("AddedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DeletedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Tags");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -288,22 +465,22 @@ namespace AllUpApp_BackendProject.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "e8bebd5e-7592-4f1e-b6cd-c83808750f29",
-                            ConcurrencyStamp = "e8bebd5e-7592-4f1e-b6cd-c83808750f29",
+                            Id = "b61a9eea-2713-4e63-abf9-b5e2b98292b4",
+                            ConcurrencyStamp = "b61a9eea-2713-4e63-abf9-b5e2b98292b4",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "cbc24547-757b-4030-a983-9539cb9d9ef5",
-                            ConcurrencyStamp = "cbc24547-757b-4030-a983-9539cb9d9ef5",
+                            Id = "ec98e8b4-0689-4b16-b99f-60dd2dc7fe28",
+                            ConcurrencyStamp = "ec98e8b4-0689-4b16-b99f-60dd2dc7fe28",
                             Name = "SuperAdmin",
                             NormalizedName = "SUPERADMIN"
                         },
                         new
                         {
-                            Id = "7e075d96-a7d0-4565-b6e7-f9b26c314b60",
-                            ConcurrencyStamp = "7e075d96-a7d0-4565-b6e7-f9b26c314b60",
+                            Id = "970696af-73a9-4e19-a60f-e2f8f810d28f",
+                            ConcurrencyStamp = "970696af-73a9-4e19-a60f-e2f8f810d28f",
                             Name = "User",
                             NormalizedName = "USER"
                         });
@@ -398,13 +575,13 @@ namespace AllUpApp_BackendProject.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = "2f56f526-3762-452c-84fb-b8acb98e7267",
-                            RoleId = "e8bebd5e-7592-4f1e-b6cd-c83808750f29"
+                            UserId = "ba1e7abb-5332-4b14-bacd-35012fff2374",
+                            RoleId = "b61a9eea-2713-4e63-abf9-b5e2b98292b4"
                         },
                         new
                         {
-                            UserId = "89c1d8d2-91bc-4999-b031-ba44890920cc",
-                            RoleId = "cbc24547-757b-4030-a983-9539cb9d9ef5"
+                            UserId = "3481617b-09a5-47bb-8ef6-fff59e12d0de",
+                            RoleId = "ec98e8b4-0689-4b16-b99f-60dd2dc7fe28"
                         });
                 });
 
@@ -434,6 +611,44 @@ namespace AllUpApp_BackendProject.Migrations
                         .HasForeignKey("ParentId");
 
                     b.Navigation("Parent");
+                });
+
+            modelBuilder.Entity("AllUpApp_BackendProject.Models.Product", b =>
+                {
+                    b.HasOne("AllUpApp_BackendProject.Models.Brand", "Brand")
+                        .WithMany("Products")
+                        .HasForeignKey("BrandId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("AllUpApp_BackendProject.Models.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Brand");
+
+                    b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("AllUpApp_BackendProject.Models.ProductTag", b =>
+                {
+                    b.HasOne("AllUpApp_BackendProject.Models.Product", "Product")
+                        .WithMany("ProductTags")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("AllUpApp_BackendProject.Models.Tag", "Tag")
+                        .WithMany("ProductTags")
+                        .HasForeignKey("TagId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("Tag");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -487,9 +702,24 @@ namespace AllUpApp_BackendProject.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("AllUpApp_BackendProject.Models.Brand", b =>
+                {
+                    b.Navigation("Products");
+                });
+
             modelBuilder.Entity("AllUpApp_BackendProject.Models.Category", b =>
                 {
                     b.Navigation("Children");
+                });
+
+            modelBuilder.Entity("AllUpApp_BackendProject.Models.Product", b =>
+                {
+                    b.Navigation("ProductTags");
+                });
+
+            modelBuilder.Entity("AllUpApp_BackendProject.Models.Tag", b =>
+                {
+                    b.Navigation("ProductTags");
                 });
 #pragma warning restore 612, 618
         }
