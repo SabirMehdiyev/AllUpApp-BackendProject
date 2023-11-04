@@ -17,7 +17,7 @@ namespace AllUpApp_BackendProject.Models
         public Brand Brand { get; set; }
         public bool IsNewArrival { get; set; }
         public bool IsFeatured { get; set; }
-        public double IsBestSeller { get; set; }
+        public bool IsBestSeller { get; set; }
         public string Description { get; set; }
         public int CategoryId { get; set; }
         public Category Category { get; set; }

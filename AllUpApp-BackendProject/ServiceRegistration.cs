@@ -36,6 +36,7 @@ namespace AllUpApp_BackendProject
                 options.Lockout.MaxFailedAccessAttempts = 3;
             }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
             services.AddScoped<IEmailService, EmailService>();
+
         }
     }
 }

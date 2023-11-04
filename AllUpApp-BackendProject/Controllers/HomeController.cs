@@ -2,7 +2,6 @@
 using AllUpApp_BackendProject.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Diagnostics;
 
 namespace AllUpApp_BackendProject.Controllers
 {
